@@ -7,6 +7,7 @@ The `message_sign_ups.csv` is an example of how the Google sheets should be form
 
 ## How to run this script
 - create a new project and paste the sender.gs code into the Code.gs file created for you replacing the whole file with the contents of sender.gs
+- add the Google Sheets API service
 - create a spreadsheet formatted the same as `message_sign_ups.csv`
     - to begin all users who have not received an email should have the value in column B set to `FALSE`
 - retrieve the spreadsheet_id from the created spreadsheet url
